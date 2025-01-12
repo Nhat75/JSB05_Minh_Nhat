@@ -72,21 +72,3 @@ footer h2 {
 footer p {
     margin: 5px 0;
 }
-.back-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 1000;
-}
-
-.back-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-    transition: all 0.3s ease;
-}
