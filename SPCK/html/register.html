@@ -42,27 +42,25 @@
             const password = document.getElementById('password').value;
             const confirmPassword = document.getElementById('confirm-password').value;
             
-            // Reset error messages
+            // Reset loi pass
             document.getElementById('password-error').textContent = '';
             document.getElementById('confirm-password-error').textContent = '';
             
-            // Validate password length
+            // pass manh
             if (password.length < 8) {
                 document.getElementById('password-error').textContent = 'Password must be at least 8 characters long';
                 return;
             }
             
-            // Check if passwords match
+            // Kiểm tra pass 
             if (password !== confirmPassword) {
                 document.getElementById('confirm-password-error').textContent = 'Passwords do not match';
                 return;
             }
             
-            // If validation passes, you can proceed with account creation
-            // Here you would typically send the data to your server
-            // For this example, we'll just redirect to the main page
+            // báo cáo tao thanh cong r di chuyen toi main
             alert('Account created successfully!');
-            window.location.href = './main.html';
+            window.location.href = 'index.html';
         });
     </script>
 </body>

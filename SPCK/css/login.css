@@ -22,7 +22,7 @@ body {
     max-width: 400px;
 }
 
-.register-form h2 {
+.login-form h2 {
     text-align: center;
     color: #333;
     margin-bottom: 2rem;
@@ -80,20 +80,21 @@ button:hover {
     background: #574b7c;
 }
 
-.login-link {
+.register-link {
     text-align: center;
     margin-top: 1rem;
     color: #666;
 }
 
-.login-link a {
+.register-link a {
     color: #6b5b95;
     text-decoration: none;
 }
 
-.login-link a:hover {
+.register-link a:hover {
     text-decoration: underline;
 }
+
 .error-message {
     color: red;
     font-size: 0.8em;
