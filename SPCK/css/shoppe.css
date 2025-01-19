@@ -90,3 +90,23 @@ footer p {
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Responsive adjustment */
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card:hover {
+    transform: scale(1.02);
+}
